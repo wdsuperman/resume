@@ -1,8 +1,10 @@
 <template>
   <div class="wrap">
       <div class="pic">
+          <div>
           <router-view></router-view>
           <Right style="float:left" />
+          </div>
       </div>
   </div>
 </template>
@@ -25,10 +27,15 @@ export default {
 
 <style scoped>
     .pic{
+        width: 100%;
         padding: 20% 0 20% 0;
         background-image: url('../assets/timg.jpeg');
         background-size: cover;
         overflow: hidden;
+    }
+    .pic>div{
+        width: 1150px;
+        margin: 0 auto;
     }
 </style>
 

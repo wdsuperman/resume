@@ -32,7 +32,7 @@
                   </div>
               </div>
               <div class="html">
-                  Vue:
+                  <i>Vue:</i>
                   <div class="long">
                       <div class="vue"></div>
                   </div>

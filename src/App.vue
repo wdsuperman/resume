@@ -27,12 +27,6 @@ em,i,p,a,h1,h2{
   font-family: '微软雅黑';
   font-family: 微软雅黑;
 }
-.app{
-  width: 100%;
-}
-.app>div{
-  width: 1000px;
-  margin: 0 auto;
-}
+
 </style>
 
