@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <Resume/>
+    <div>
+      <Resume/>
+    </div>
   </div>
 </template>
 
@@ -20,8 +22,18 @@ export default {
   padding: 0;
   box-sizing: border-box;
 }
-em,i{
+em,i,p,a,h1,h2{
   font-style: normal;
+  font-family: '微软雅黑';
+  font-family: 微软雅黑;
+}
+.app{
+  width: 100%;
+  margin: 0 auto;
+}
+.app>div{
+  width: 1350px;
+  margin: 0 auto;
 }
 </style>
 

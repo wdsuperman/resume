@@ -25,14 +25,10 @@ export default {
 
 <style scoped>
     .pic{
-        padding-top: 106px;
-        padding-bottom: 107px;
+        padding: 20% 0 20% 0;
         background-image: url('../assets/timg.jpeg');
         background-size: cover;
         overflow: hidden;
-    }
-    .wrap{
-        width: 100%;
     }
 </style>
 
