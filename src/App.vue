@@ -29,10 +29,9 @@ em,i,p,a,h1,h2{
 }
 .app{
   width: 100%;
-  margin: 0 auto;
 }
 .app>div{
-  width: 1350px;
+  width: 1000px;
   margin: 0 auto;
 }
 </style>
