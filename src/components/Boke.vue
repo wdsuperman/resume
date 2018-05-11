@@ -1,6 +1,6 @@
 <template>
   <div>
-      <router-link to="/bokepage">Boke</router-link>
+      <router-link to="/bokepage">Blog</router-link>
   </div>
 </template>
 

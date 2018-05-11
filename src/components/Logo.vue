@@ -3,7 +3,6 @@
       <router-link class="logo" to="/"></router-link>
   </div>
 </template>
-
 <script>
 export default {
     name:'Logo'
