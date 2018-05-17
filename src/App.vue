@@ -12,6 +12,9 @@ export default {
   name: 'app',
   components:{
     Resume
+  },
+  created(){
+    this.$store.dispatch({ type: 'cz' })
   }
 }
 </script>
