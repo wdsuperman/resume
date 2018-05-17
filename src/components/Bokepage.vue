@@ -1,12 +1,12 @@
 <template>
   <div class="wp">
-      <div class="body">
-            <el-carousel :interval="4000" type="card" height="250px">
-                <el-carousel-item v-for="item in imgs" :key="item.id">
-                    <img class="pics" :src="item.src" alt="">
-                </el-carousel-item>
-            </el-carousel>
-      </div>
+    <div class="body">
+        <el-carousel :interval="4000" type="card" height="250px">
+            <el-carousel-item v-for="item in imgs" :key="item.id">
+                <img class="pics" :src="item.src" alt="">
+            </el-carousel-item>
+        </el-carousel>
+    </div>
   </div>
 </template>
 
@@ -52,13 +52,4 @@ export default {
   .el-carousel__indicators--outside button{
       background-color: #000;
   }
-  
-  /* .el-carousel__item:nth-child(2n) {
-    background-color: #99a9bf;
-  }
-  
-  .el-carousel__item:nth-child(2n+1) {
-    background-color: #d3dce6;
-  } */
-
 </style>
