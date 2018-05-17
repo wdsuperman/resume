@@ -2,7 +2,7 @@
   <div class="wrap">
       <div class="pic">
           <div>
-          <router-view></router-view>
+          <router-view :t='hhh'></router-view>
           <Right style="float:left" />
           </div>
       </div>
@@ -21,6 +21,11 @@ export default {
         Right,
         Aboutme,
         Photo
+    },
+    computed:{
+        hhh(){
+            return this.$store.state.comment.name
+        }
     }
 }
 </script>
